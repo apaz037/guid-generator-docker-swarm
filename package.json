@@ -1,0 +1,23 @@
+{
+  "name": "guid-generator-docker-swarm",
+  "version": "1.0.0",
+  "description": "GUID generator microservice written in Node.js meant to be scaled out with Docker Swarm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apaz037/guid-generator-docker-swarm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apaz037/guid-generator-docker-swarm/issues"
+  },
+  "homepage": "https://github.com/apaz037/guid-generator-docker-swarm#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "uuid": "^3.1.0"
+  }
+}
